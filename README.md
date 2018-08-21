@@ -10,4 +10,4 @@ In Android Studio, click on Add the Realtime Database to your app if the depende
 
 Run and test app.
 
-Details about the app can be found at: https://medium.com/p/88ff5ae17a71
+Details about the app can be found at: https://medium.com/@ardeploy/build-shared-augmented-reality-experience-for-android-using-sceneform-and-arcore-cloud-anchors-29ae1c55bea7
