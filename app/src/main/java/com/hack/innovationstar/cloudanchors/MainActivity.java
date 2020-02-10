@@ -2,11 +2,12 @@ package com.hack.innovationstar.cloudanchors;
 
 import android.app.AlertDialog;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.ar.core.Anchor;
 import com.google.ar.core.HitResult;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         fragment = (CustomArFragment) getSupportFragmentManager().findFragmentById(R.id.sceneform_fragment);
         //To add
         fragment.getPlaneDiscoveryController().hide();
-        fragment.getArSceneView().getScene().setOnUpdateListener(this::onUpdateFrame);
+        fragment.getArSceneView().getScene().addOnUpdateListener(this::onUpdateFrame);
 
         Button clearButton = findViewById(R.id.clear_button);
         clearButton.setOnClickListener(new View.OnClickListener() {

@@ -8,3 +8,25 @@
 /build
 /captures
 .externalNativeBuild
+
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+*.class
+bin/
+gen/
+out/
+
+
+*.log
+.navigation/
+
+
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/caches
