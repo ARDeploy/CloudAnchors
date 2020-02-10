@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CloudAnchors</string>
+    <string name="title_activity_todo_list">todo_list</string>
 </resources>
